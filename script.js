@@ -6,7 +6,7 @@
   const root = document.documentElement;
   const themeButtons = [...document.querySelectorAll("[data-theme-choice]")];
   const metaTheme = document.querySelector('meta[name="theme-color"]');
-  const themeColors = { light: "#f4f0e2", dark: "#15191b", violet: "#201c2b" };
+  const themeColors = { light: "#f4f0e2", dark: "#111d20", violet: "#201c2b" };
 
   // Restore the visitor's theme preference when storage is available.
   let savedTheme = "light";
